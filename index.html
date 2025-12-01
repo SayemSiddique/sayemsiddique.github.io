@@ -1,12 +1,467 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <title>Test Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sayem Siddique - IT & Cloud Infrastructure Professional | M.S. Computer Science & IT. Portfolio showcasing systems administration, cloud automation, and infrastructure projects.">
+  <meta name="author" content="Sayem Siddique">
+  <meta name="keywords" content="IT Administrator, Cloud Infrastructure, AWS, Systems Administration, DevOps, Linux, Windows Server, Python, Automation">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sayem Siddique | IT & Cloud Infrastructure Professional">
+  <meta property="og:description" content="IT professional with 3+ years in systems administration, cloud infrastructure, and automation. M.S. Computer Science & IT graduate.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  
+  <title>Sayem Siddique | IT & Cloud Infrastructure Professional</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>My Portfolio is Online</h1>
-  <p>If you see this, GitHub Pages is working.</p>
-  <p> Marjia my love, if you are seeing this, know that you are always in my heart. I will always cherish you. You the best thing ever happened to me. <3 love you forever</p>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- ========== HEADER / NAVIGATION ========== -->
+  <header class="header" id="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo">Sayem Siddique</a>
+      
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      
+      <ul class="nav__menu" id="nav-menu" role="menubar">
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#journey" class="nav__link">Journey</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        <li class="nav__item nav__item--cta"><a href="#" class="btn btn--primary btn--sm">Resume</a></li>
+      </ul>
+      
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-toggle__icon"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <p class="hero__greeting">Hello, I'm</p>
+          <h1 class="hero__name">Sayem Siddique</h1>
+          <p class="hero__title">IT & Cloud Infrastructure Professional | M.S. Computer Science & IT</p>
+          <p class="hero__bio">
+            I'm an IT professional and M.S. Computer Science & IT graduate who transitioned from Textile Engineering into systems, cloud, and infrastructure. Over the last three years, I've managed web-hosting environments, automated server operations, and supported users across education and small businesses. My focus now is building reliable, well-documented systems at the intersection of cloud, automation, and real-world problem solving.
+          </p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="https://drive.google.com/file/d/1skPcGFMyaCXNtvRxk-Q81plf2ulvghqn/view?usp=sharing" class="btn btn--outline">Download Resume</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <div class="hero__image-placeholder">
+            <span><img src="assets/img/profile.jpeg" alt="Sayem Siddique - IT Professional" class="hero__photo"></span>
+          </div>
+        </div>
+        <div class="hero__highlights">
+          <div class="highlight">
+            <span class="highlight__number">3+</span>
+            <span class="highlight__label">Years Experience</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight__number">99.9%</span>
+            <span class="highlight__label">Uptime Achieved</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight__number">25+</span>
+            <span class="highlight__label">Servers Managed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        
+        <div class="about__content">
+          <div class="about__intro">
+            <p class="about__text">
+              I started my career in Textile Engineering, where I learned to think in terms of processes, constraints, and system stability. That mindset eventually pulled me toward IT—first through self-study in hardware, operating systems, networking, and cloud basics, and then through real-world roles supporting schools and managing web-hosting infrastructure for small businesses. Over the past three years, I've maintained mixed Windows/Linux environments, led zero-downtime server migrations, automated backups and lab setups, and helped non-technical users navigate complex systems. Now, as a Master's graduate in Computer Science & Information Technology, I focus on cloud infrastructure, automation, and system reliability—building solutions that are practical, documented, and designed to scale.
+            </p>
+          </div>
+          
+          <div class="about__story">
+            <button class="about__toggle" id="story-toggle">Read my full story</button>
+            
+            <div class="about__full-story" id="full-story">
+              <p>I didn't start in computer science. I began in Textile Engineering in Bangladesh, working with processes, quality, and systems that had to run reliably every day. That environment trained me to think in terms of constraints, repeatability, and cause-and-effect—skills that turned out to be just as relevant to IT as they were to manufacturing.</p>
+              
+              <p>Over time, I noticed my curiosity shifting away from materials and production and toward the logic behind systems and software. I wanted to understand how networks route requests, how servers stay online, and how different layers of infrastructure interact. That curiosity pushed me into late nights of self-study: basics of programming, operating systems, networking, and eventually cloud platforms. I didn't have a formal CS background yet, so I built one for myself—through online courses, labs, and small experiments.</p>
+              
+              <p>That work led to my first professional opportunities in IT in Bangladesh. At a local school, I became the person responsible for keeping devices, printers, and networks running for the staff. It was a crash course in real-world support: diagnosing issues under time pressure, explaining solutions to non-technical users, and making sure everything worked when it needed to.</p>
+              
+              <p>From there, I moved into a broader infrastructure role at a web-hosting and IT services provider for small businesses. I managed hybrid Windows/Linux servers, tuned web-hosting stacks, led server migrations with zero downtime, and built documentation and standard operating procedures so systems wouldn't depend on "tribal knowledge." I also automated repetitive tasks like backups and lab setups, cutting manual work and reducing the room for human error.</p>
+              
+              <p>As my responsibilities grew, it became clear that this wasn't just a side interest—I wanted to go deeper into computer science and cloud infrastructure. That decision brought me to the United States to pursue a Master's in Computer Science & Information Technology at Sacred Heart University. Coming from a non-CS undergraduate background meant rebuilding my foundation: algorithms, data structures, software engineering, security, and cloud architecture. It wasn't comfortable, but it was consistent with how I've always approached change—by doing the work, step by step, until the gap closes.</p>
+              
+              <p>During my graduate studies, I worked as a Teaching Assistant for cloud computing labs, helping students understand AWS concepts like VPC, EC2, IAM, and S3. I supported them through lab issues and also automated parts of the lab environment using Python and AWS CLI, reducing setup time and improving reliability. That role reinforced how much I enjoy working at the infrastructure layer—where clarity, documentation, and stable systems directly impact other people's work.</p>
+              
+              <p>Today, I bring together three threads: the process discipline from textile engineering, the hands-on experience of managing real production systems, and a formal CS background focused on cloud and automation. I'm interested in roles where I can design, maintain, and improve systems—whether that's cloud infrastructure, DevOps tooling, or reliable backend services. My path hasn't been linear, but it has been intentional: identify what I want to understand, learn it deeply, apply it in practice, and keep building from there.</p>
+            </div>
+          </div>
+          
+          <div class="about__themes">
+            <h3 class="about__themes-title">Key Themes</h3>
+            <ul class="about__themes-list">
+              <li>Process thinking & system stability</li>
+              <li>Infrastructure & automation</li>
+              <li>Self-driven learning</li>
+              <li>Cross-domain transition</li>
+              <li>Cloud & reliability focus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE & EDUCATION SECTION ========== -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <h2 class="section__title">Experience & Education</h2>
+        
+        <div class="experience__grid">
+          <!-- Experience Column -->
+          <div class="experience__column">
+            <h3 class="experience__subtitle">Work Experience</h3>
+            
+            <article class="experience__card">
+              <div class="experience__header">
+                <h4 class="experience__role">IT Administrator</h4>
+                <span class="experience__date">Feb 2022 – Aug 2024</span>
+              </div>
+              <p class="experience__company">Done 5 Technologies — Chattogram, Bangladesh</p>
+              <p class="experience__description">Web-hosting and IT-services provider managing shared/VPS servers and client infrastructure.</p>
+              <ul class="experience__list">
+                <li>Maintained 99.9% uptime across 25+ SMB Windows/Linux servers</li>
+                <li>Built automated patching & backup workflows, cutting manual work by 40%</li>
+                <li>Hardened network infrastructure: DNS, DHCP, pfSense firewalls, VPN</li>
+                <li>Led 10+ server migrations with zero downtime; SOPs cut future setup time in half</li>
+                <li>Resolved hosting issues with devs—improved load times by 20%</li>
+              </ul>
+              <div class="experience__stack">
+                <span class="tag">Windows Server</span>
+                <span class="tag">CentOS/Ubuntu</span>
+                <span class="tag">cPanel/WHM</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">pfSense</span>
+                <span class="tag">VMware</span>
+              </div>
+            </article>
+            
+            <article class="experience__card">
+              <div class="experience__header">
+                <h4 class="experience__role">Teaching Assistant (Cloud Computing Labs)</h4>
+                <span class="experience__date">Mar 2025 – Jul 2025</span>
+              </div>
+              <p class="experience__company">Sacred Heart University — Fairfield, CT</p>
+              <ul class="experience__list">
+                <li>Supported students in AWS and virtualization labs (VPC, EC2, IAM, S3)</li>
+                <li>Diagnosed lab errors and guided students through troubleshooting</li>
+                <li>Automated virtual lab setups, reducing instructor prep time by 50%</li>
+              </ul>
+              <div class="experience__stack">
+                <span class="tag">AWS</span>
+                <span class="tag">Python</span>
+                <span class="tag">AWS CLI</span>
+              </div>
+            </article>
+            
+            <article class="experience__card">
+              <div class="experience__header">
+                <h4 class="experience__role">IT Associate</h4>
+                <span class="experience__date">Earlier Role</span>
+              </div>
+              <p class="experience__company">Chattogram Notredame School & College — Bangladesh</p>
+              <ul class="experience__list">
+                <li>Managed devices, printers, and networks for staff</li>
+                <li>Provided real-world support under time pressure</li>
+                <li>Communicated technical solutions to non-technical users</li>
+              </ul>
+            </article>
+          </div>
+          
+          <!-- Education Column -->
+          <div class="experience__column">
+            <h3 class="experience__subtitle">Education</h3>
+            
+            <article class="experience__card">
+              <div class="experience__header">
+                <h4 class="experience__role">M.S. Computer Science & Information Technology</h4>
+                <span class="experience__date">2025</span>
+              </div>
+              <p class="experience__company">Sacred Heart University — Fairfield, CT</p>
+            </article>
+            
+            <article class="experience__card">
+              <div class="experience__header">
+                <h4 class="experience__role">B.S. Textile Engineering</h4>
+                <span class="experience__date">2022</span>
+              </div>
+              <p class="experience__company">Port City International University — Chattogram, Bangladesh</p>
+            </article>
+            
+            <h3 class="experience__subtitle">Certifications</h3>
+            
+            <article class="experience__card">
+              <ul class="experience__list experience__list--certs">
+                <li><strong>Google IT Support Professional</strong> — Coursera (2022)</li>
+                <li><strong>Machine Learning Specialization</strong> — Coursera (2023)</li>
+                <li><strong>Microsoft Virtual Internship</strong> — Forage (2021)</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS & TOOLS SECTION ========== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills & Tools</h2>
+        
+        <div class="skills__grid">
+          <div class="skills__category">
+            <h3 class="skills__category-title">Infrastructure & Systems</h3>
+            <ul class="skills__list">
+              <li class="skills__item">Windows Server (2019, 2022)</li>
+              <li class="skills__item">Linux (CentOS, Ubuntu)</li>
+              <li class="skills__item">cPanel / WHM</li>
+              <li class="skills__item">Apache / Nginx</li>
+              <li class="skills__item">DNS & DHCP</li>
+              <li class="skills__item">VPN (Cisco, OpenVPN)</li>
+              <li class="skills__item">pfSense Firewalls</li>
+              <li class="skills__item">VMware / Hyper-V</li>
+              <li class="skills__item">Active Directory</li>
+            </ul>
+          </div>
+          
+          <div class="skills__category">
+            <h3 class="skills__category-title">Cloud & Automation</h3>
+            <ul class="skills__list">
+              <li class="skills__item">AWS (VPC, EC2, S3, IAM)</li>
+              <li class="skills__item">Python</li>
+              <li class="skills__item">Bash Scripting</li>
+              <li class="skills__item">PowerShell</li>
+              <li class="skills__item">AWS CLI</li>
+              <li class="skills__item">Backup Automation</li>
+              <li class="skills__item">MySQL</li>
+              <li class="skills__item">Veeam</li>
+            </ul>
+          </div>
+          
+          <div class="skills__category">
+            <h3 class="skills__category-title">Support & Collaboration</h3>
+            <ul class="skills__list">
+              <li class="skills__item">Zendesk</li>
+              <li class="skills__item">Office 365</li>
+              <li class="skills__item">Documentation</li>
+              <li class="skills__item">SOPs & Training</li>
+              <li class="skills__item">Troubleshooting</li>
+              <li class="skills__item">Cross-Team Collaboration</li>
+              <li class="skills__item">Clear Communication</li>
+              <li class="skills__item">AI Prompting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        
+        <div class="projects__grid">
+          <article class="project__card">
+            <div class="project__content">
+              <h3 class="project__title">Server Migration & Uptime Optimization</h3>
+              <p class="project__company">Done 5 Technologies</p>
+              <p class="project__description">
+                Migrated 10+ client websites from legacy VPS to optimized Linux stack. Improved uptime from 98.5% to 99.9% and reduced latency by 20%. Created SOPs that cut future setup time in half.
+              </p>
+              <div class="project__metrics">
+                <span class="metric"><strong>99.9%</strong> Uptime</span>
+                <span class="metric"><strong>20%</strong> Faster Load</span>
+                <span class="metric"><strong>10+</strong> Migrations</span>
+              </div>
+              <div class="project__tags">
+                <span class="tag">Linux</span>
+                <span class="tag">cPanel</span>
+                <span class="tag">Apache</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Bash</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="project__card">
+            <div class="project__content">
+              <h3 class="project__title">AWS Lab Automation</h3>
+              <p class="project__company">Sacred Heart University</p>
+              <p class="project__description">
+                Built Python/AWS CLI scripts to auto-create EC2 instances for student labs. Reduced manual lab setup time by 50% and improved reliability for instructors and students.
+              </p>
+              <div class="project__metrics">
+                <span class="metric"><strong>50%</strong> Time Saved</span>
+                <span class="metric"><strong>Auto</strong> Provisioning</span>
+              </div>
+              <div class="project__tags">
+                <span class="tag">AWS</span>
+                <span class="tag">Python</span>
+                <span class="tag">EC2</span>
+                <span class="tag">AWS CLI</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="project__card project__card--placeholder">
+            <div class="project__content">
+              <h3 class="project__title">More Projects Coming</h3>
+              <p class="project__description">
+                Additional projects in cloud, AI, or product-building will be added here. This could include personal experiments, open-source contributions, or new professional work.
+              </p>
+              <div class="project__tags">
+                <span class="tag">Cloud</span>
+                <span class="tag">AI/ML</span>
+                <span class="tag">Product</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== JOURNEY TIMELINE SECTION ========== -->
+    <section class="journey section" id="journey">
+      <div class="container">
+        <h2 class="section__title">My Journey</h2>
+        <p class="section__subtitle">From Textile Engineering to Cloud & Infrastructure</p>
+        
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2018</span>
+              <h3 class="timeline__title">Textile Engineering Begins</h3>
+              <p class="timeline__text">Started B.S. in Textile Engineering at PCIU, Bangladesh. Learned process thinking, quality control, and system reliability.</p>
+            </div>
+          </div>
+          
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2020–2021</span>
+              <h3 class="timeline__title">Self-Learning IT</h3>
+              <p class="timeline__text">Curiosity shifted toward systems and software. Late nights of self-study: programming basics, operating systems, networking, cloud platforms.</p>
+            </div>
+          </div>
+          
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2021</span>
+              <h3 class="timeline__title">First IT Role</h3>
+              <p class="timeline__text">Joined Chattogram Notredame School & College as IT Associate. Crash course in real-world support—devices, printers, networks, and user communication.</p>
+            </div>
+          </div>
+          
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2022</span>
+              <h3 class="timeline__title">Infrastructure Role</h3>
+              <p class="timeline__text">Moved to Done 5 Technologies as IT Administrator. Managed servers, led migrations, built automation, and established documentation practices.</p>
+            </div>
+          </div>
+          
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2023</span>
+              <h3 class="timeline__title">Move to USA for M.S.</h3>
+              <p class="timeline__text">Enrolled at Sacred Heart University for M.S. in Computer Science & IT. Rebuilt CS foundation: algorithms, data structures, security, cloud architecture.</p>
+            </div>
+          </div>
+          
+          <div class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2025</span>
+              <h3 class="timeline__title">Cloud TA & Current Direction</h3>
+              <p class="timeline__text">Worked as Teaching Assistant for cloud labs. Graduated with M.S. Now focused on cloud infrastructure, automation, and reliable systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="section__subtitle">I'm open to opportunities in cloud infrastructure, DevOps, and systems engineering.</p>
+        
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__item">
+              <span class="contact__label">Email</span>
+              <a href="mailto:sayemsiddique77@gmail.com" class="contact__link">sayemsiddique77@gmail.com</a>
+            </div>
+            <div class="contact__item">
+              <span class="contact__label">Phone</span>
+              <a href="tel:+15167905806" class="contact__link">516-790-5806</a>
+            </div>
+            <div class="contact__item">
+              <span class="contact__label">Location</span>
+              <span class="contact__text">Los Angeles, CA</span>
+            </div>
+          </div>
+          
+          <div class="contact__links">
+            <a href="https://linkedin.com/in/sayemsiddique77" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+              <span class="btn__icon">in</span> LinkedIn
+            </a>
+            <a href="https://github.com/sayemsiddique" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+              <span class="btn__icon">⌘</span> GitHub
+            </a>
+            <a href="mailto:sayemsiddique77@gmail.com" class="btn btn--outline">
+              <span class="btn__icon">✉</span> Email Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__text">&copy; 2025 Sayem Siddique. Built with care. All rights reserved.</p>
+      <p class="footer__credit">Designed & developed by Sayem Siddique</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
